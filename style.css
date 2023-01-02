@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: rgb(16, 175, 146); */
+    background: rgb(5, 108, 163);
+    font-family: "Montserrat",sans-serif;
+}
+
+.container{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.x{
+    font-size: 40px;
+}
+
+.lookup-btn
+{
+    border: none;
+    background: #353b48;
+    margin-top: 5em;
+    background-color:white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* padding: 0.8rem 1.2rem; */
+    padding: 1em;
+    border-radius: 25px;
+    cursor:pointer;
+    transition: opacity 250ms linear;
+}
+h2{
+    color:white;
+}
+.lookup-btn:hover{
+    opacity: 0.8;
+}
